@@ -6,11 +6,11 @@ import kotlinx.serialization.Serializable
 import java.util.*
 
 /** Message
- * serializable = can be serialized with JSON
- * text         = text of the message
- * username     = who has sent the message
- * timestamp    = when the message was sent
- * id           = id used for identification of messages
+ * - serializable = can be serialized with JSON
+ * - text         = text of the message
+ * - username     = who has sent the message
+ * - timestamp    = when the message was sent
+ * - id           = id used for identification of messages
  *
  * The message will be sent as a JSON string over the network.
  *
