@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.toList
  * Implementation for MongoDB.
  * MongoDB will automatically create a collection of documents.
  */
-class MessageDataSourceImpl(
+class MongoDbDataSource(
     private val db: MongoDatabase
 ): MessageDataSource {
 
