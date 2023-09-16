@@ -12,7 +12,9 @@ import java.util.*
  * timestamp    = when the message was sent
  * id           = id used for identification of messages
  *
- * Used randomUUID because of problems with auto serialization
+ * The message will be sent as a JSON string over the network.
+ *
+ * Used randomUUID because of problems with auto serialization.
  */
 @Serializable
 data class Message(
