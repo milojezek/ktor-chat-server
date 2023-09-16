@@ -1,4 +1,4 @@
-package eu.milek549.data
+package eu.milek549.data.datasource
 
 import com.mongodb.kotlin.client.coroutine.MongoDatabase
 import eu.milek549.data.model.Message

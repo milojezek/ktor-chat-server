@@ -1,6 +1,6 @@
 package eu.milek549.room
 
-import eu.milek549.data.MessageDataSource
+import eu.milek549.data.datasource.MessageDataSource
 import eu.milek549.data.model.Message
 import io.ktor.websocket.*
 import kotlinx.serialization.encodeToString
